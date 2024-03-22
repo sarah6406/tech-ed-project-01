@@ -27,11 +27,22 @@ main {
     margin: -20px;
 }
 
+#nav-bar {
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
 header a {
   padding: 1rem;
   font-size: 0.4rem;
   text-decoration: none;
   font-weight: bold;
+}
+
+header a:hover {
+    font-size: 0.5rem;
 }
 
 #title {
@@ -95,12 +106,7 @@ button a {
     color: inherit;
 }
 
-#nav-bar {
-    position: fixed;
-    z-index: 1;
-    padding-top: 50px;
-    overflow: hidden;
-}
+
 
 footer p {
   text-transform: none;
