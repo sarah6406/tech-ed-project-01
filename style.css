@@ -1,0 +1,113 @@
+* {
+  /* font-size: 40px; */
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: white;
+  /* background-color: black; */
+  /* height: auto; */
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  
+  /* padding: 2rem; */
+  /* position: fixed; */
+  top: 10px;
+  width: 100%;
+  margin-top: -10px;
+}
+
+main {
+    margin: -20px;
+}
+
+header a {
+  padding: 1rem;
+  font-size: 0.4rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#title {
+  font-size: 0.8rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.image-container {
+  position: relative;
+  top: 0;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.slogan-one {
+  font-size: 0.6rem;
+  font-weight: lighter;
+}
+
+.slogan-two {
+  font-size: 1.2rem;
+}
+
+button {
+  font-size: 0.5rem;
+  border: 0.1rem solid white;
+  background-color: transparent;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-right: 6rem;
+  padding-bottom: 0.5rem;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar {
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+footer p {
+  text-transform: none;
+  color: lightgray;
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
