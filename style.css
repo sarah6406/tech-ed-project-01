@@ -1,5 +1,5 @@
 * {
-  font-size: 40px;
+  font-size: 4vw;
   font-family: sans-serif;
   text-transform: uppercase;
   color: white;
@@ -10,12 +10,15 @@
 body {
   margin: 0;
   background-color: black;
+  /* width: 100%;
+  height: auto; */
+  /* font-size: 1vh; */
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  
+
   /* padding: 2rem; */
   /* position: fixed; */
   top: 10px;
@@ -24,29 +27,29 @@ header {
 }
 
 main {
-    margin: -20px;
+  margin: -20px;
 }
 
 #nav-bar {
-    position: fixed;
-    z-index: 1;
-    padding-top: 50px;
-    overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  overflow: hidden;
 }
 
 header a {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 0.4rem;
   text-decoration: none;
   font-weight: bold;
 }
 
 header a:hover {
-    font-size: 0.5rem;
+  font-size: 0.5rem;
 }
 
 #title {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 1rem;
   font-weight: bold;
 }
@@ -54,7 +57,6 @@ header a:hover {
 .image-container {
   position: relative;
   top: 0;
-  /* display: inline-block; */
   display: flex;
   justify-content: flex-start;
   padding: 0;
@@ -82,17 +84,16 @@ header a:hover {
 }
 
 .slogan-two {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 button {
-  font-size: 0.5rem;
-  border: 0.1rem solid white;
   background-color: transparent;
-  padding-left: 1rem;
-  padding-top: 0.5rem;
-  padding-right: 6rem;
-  padding-bottom: 0.5rem;
+  border: 0.1rem solid white;
+  padding-left: 0.8rem;
+  padding-top: 0.1rem;
+  padding-right: 7rem;
+  padding-bottom: 0.4rem;
 }
 
 button:hover {
@@ -102,18 +103,53 @@ button:hover {
 }
 
 button a {
-    text-decoration: none;
-    color: inherit;
+  font-size: 0.6rem;
+  text-decoration: none;
+  color: inherit;
 }
-
-
 
 footer p {
   text-transform: none;
   color: lightgray;
-  font-size: 0.6rem;
+  font-size: 0.4rem;
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
 
+/* UNNECESSARY CODE */
+
+/* @media screen and (max-width: 750px) {
+  #title {
+    font-size: 0.5rem;
+    padding: 0.7rem;
+    font-weight: bold;
+  }
+  header a {
+    padding: 0.5rem;
+    font-size: 0.2rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  button a {
+    font-size: 0.1rem;
+    border: 0.08rem solid white;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    padding-right: 3rem;
+    padding-bottom: 0.2rem;
+  }
+  
+  .slogan-one {
+    font-size: 0.4rem;
+    font-weight: lighter;
+  }
+
+  .slogan-two {
+    font-size: 0.7rem;
+  }
+  header a:hover {
+    font-size: 0.3rem;
+  }
+} */
